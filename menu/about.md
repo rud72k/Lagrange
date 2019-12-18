@@ -1,18 +1,124 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: Bermain dengan penggaris dan Jangka!
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+Website ini bertujuan untuk mencoba belajar dasar-dasar geometri bidang, sekaligus menggunakan penggaris dan jangka yang sudah lama tidak digunakan. Sementara, rencana materi yang akan dibahas adalah sebagai berikut. 
 
-### Getting Started
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+### Daftar Isi
 
-### Example Content
+-	Point
+-	Locus
+-	Line
+-	Parallel
+-	Angle
+	-   Concurrent lines
+    -	Adjacent angles
+    -	Central angle
+    -	Complementary angles
+    -	Inscribed angle
+    -	Internal angle
+    -	Supplementary angles
+    -	Angle trisection
+-	Congruence
+-	Transformation
+    -	Reflection
+    -	Rotation
+    -	Coordinate rotations and reflections
+    -	Translation
+    -	Glide reflection
+-	Similarity
+	-   Similarity transformation
+    -	Homothety
+-	Shear mapping
+-	Altitude
+-	Brahmagupta's formula
+-	Bretschneider's formula
+-	Compass and straightedge constructions
+-	Squaring the circle
+-	Complex geometry
+-	Conic section
+-   Focus
+-   Circle
+    -    List of circle topics
+    -    Thales' theorem
+    -    Circumcircle
+    -    Concyclic
+    -    Incircle and excircles of a triangle
+    -    Orthocentric system
+    -    Monge's theorem
+    -    Power center
+    -    Nine-point circle
+    -    Circle points segments proof
+    -    Mrs. Miniver's problem
+    -    Isoperimetric theorem
+    -    Annulus
+    -    Ptolemaios' theorem
+    -    Steiner chain
+-   Eccentricity
+-   Ellipse
+	-	Semi-major axis
+    -	Hyperbola
+    -	Parabola
+    -	Matrix representation of conic sections
+    -	Dandelin spheres
+-	Curve of constant width
+-   Reuleaux triangle
+-	Frieze group
+-	Golden angle
+-	Holditch's theorem
+-	Interactive geometry software
+-	Parallel postulate
+-	Polygon
+-   Star polygon
+-   Pick's theorem
+-   Shape dissection
+-   Bolyai–Gerwien theorem
+-   Poncelet–Steiner theorem
+-   Polygon triangulation
+-	Pons asinorum
+-	Quadrilateral
+-	Bicentric quadrilateral
+-   Cyclic quadrilateral
+-   Equidiagonal quadrilateral
+-   Kite (geometry)
+-   Orthodiagonal quadrilateral
+    -    Rhombus
+-   Rectangle
+    -   Square
+    -	Tangential quadrilateral
+-   Trapezoid
+    -   Isosceles trapezoid
+-	Sangaku
+-	Straightedge
+-	Symmedian
+-	Tessellation
+-   Prototile
+-   Aperiodic tiling
+    -   Wang tile
+    -   Penrose tiling
+-	Trapezoid (trapezium)
+-   Isosceles trapezoid
+-	Triangle
+-   Acute and obtuse triangles
+-   Equilateral triangle
+-   Euler's line
+-   Heron's formula
+-   Integer triangle
+    -	Heronian triangle
+-   Isosceles triangle
+-   List of triangle inequalities
+-   List of triangle topics
+-   Pedal triangle
+-   Pedoe's inequality
+-   Pythagorean theorem
+-   Pythagorean triangle
+-   Right triangle
+-   Triangle inequality
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+-	Trigonometry
 
-### Questions?
+-   List of trigonometry topics
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+-	Wallpaper group
