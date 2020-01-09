@@ -4,3 +4,10 @@ Gemfile.lock
 .sass-cache
 .jekyll-metadata
 .DS_Store
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.tex
+*.synctex.gz
+note.md

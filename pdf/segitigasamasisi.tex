@@ -1,0 +1,153 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{fancyhdr}
+\title{Segitiga Samasisi\footnote{Hingga tulisan ini dibuat, penulis masih belum yakin apakah penulisan yang benar adalah segitiga sama sisi atau segitiga samasisi.}}
+\author{Prihandoko Rudi}
+\date{\today}
+
+\lhead{Prihandoko Rudi} 
+\rhead{\thepage } 
+\chead{}
+%%%%%%%%%
+\lfoot{}
+\rfoot{}
+\cfoot{}
+\pagestyle{fancy}
+
+
+\begin{document}
+\maketitle
+
+
+\noindent Segitiga sama sisi adalah salah satu segitiga yang istimewa, baik bentuknya  maupun sifat-sifatnya. Segitiga sama sisi memiliki ketiga sudut dalam yang sama besar yaitu sebesar $60^\circ$. Ketiga sisinya, sesuai namanya, memiliki panjang yang sama. Mengikuti penamaan poligon, segitiga sama sisi disebut juga segitiga regular. 
+
+\section*{Sifat-sifat Segitiga Sama Sisi}
+
+Beberapa sifat yang tidak asing dimiliki segitiga sama sisi (dengan panjang sisi $a$) adalah sebagai berikut. 
+
+\begin{enumerate}
+	\item Semua sudutnya sama besar (equiangular). Akibatnya, semua segitiga sama sisi saling sebangun.
+	\item Garis tinggi, garis berat, garis bagi, dan garis sumbu dari satu sudut (atau sisi yang bersesuaian) berhimpit. Artinya, garis tinggi juga merupakan garis berat, dst. 
+	\item Ketiga garis tinggi (garis berat, garis bagi, dst) sama panjang.
+	\item Keliling segitiga $3a$.
+	\item Tinggi segitiga $a\frac{\sqrt{3}}{2}$.
+	\item Luas segitiga $\frac{\sqrt{3}}{4}a^2$.
+	\item Jari-jari lingkaran luarnya adalah $R = \frac{a}{\sqrt{3}}$
+	\item Jari-jari lingkaran singgung dalamnya adalah $r = \frac{a}{\sqrt{6}}$
+	\item Ketaksamaan $R \geq 2r$ mencapai kesamaan, yaitu $2R = r$.
+\end{enumerate}
+
+\section*{Keliling dan Luas segitiga sama sisi}
+
+Keliling segitiga sama sisi mudah dihitung sebab panjang sisinya ketiganya sama. Jika sisinya $a$, maka kelilingnya $3a$. Untuk menghitung luas segitiga sama sisi, akan kita hitung dengan tiga cara. Cara pertama adalah dengan menghitung tingginya terlebih dahulu. 
+
+\subsection*{Cara 1}
+
+Perhatikan gambar berikut. 
+
+$$ GAMBAR $$
+
+Dengan teorema Phytagoras, diperoleh 
+$$ h^2 = a^2 - (a/2)^2 = (3/4)a^2. $$
+Karena panjang tidak boleh bernilai negatif, maka $h = \sqrt{(3/4)a^2} = \sqrt{3}/2 \, a$. Berikutnya, untuk menghitung
+luas, cukup digunakan rumus luas yang sudah kita ketahui yaitu $L= \frac{1}{2} a h$ dengan $h$ adalah tingginya. Diperoleh 
+
+$$ L = \frac{1}{2} a h = \frac{1}{2} \times a \times \frac{\sqrt{3}}{2}a = \frac{\sqrt{3}}{4} a^2. $$
+
+\subsection*{Cara 2}
+
+Cara ini menggunakan rumus luas segitiga yang menggunakan sudut dan dua sisi yang diapitnya, yaitu $L = \frac{1}{2} ab \sin C$. Rumus ini mudah digunakan sebab sudut yang dipunyai segitiga sama sisi mudah dihitung nilai sinusnya. 
+
+$$ 
+\begin{aligned}
+L &= \frac{1}{2} a \times a \times \sin 60^\circ \\&= \frac{1}{2} a^2 \times \frac{1}{2} \sqrt{3} \\&= \frac{\sqrt{3}}{4} a^2.
+\end{aligned}
+$$
+
+\subsection*{Cara 3}
+Kali ini kita akan menggunakan formula Heron, yaitu $L = \sqrt{s(s-a)(s-b)(s-c)}$ dengan $s=(a+b+c)/2$. Hal ini juga mudah dilakukan sebab ketiga sisinya sama panjang sehingga mudah didapatkan $s=(a+a+a)/2 = (3/2)a$ dan $s-a = (1/2)a$. Akibatnya,
+
+$$ L = \sqrt{s(s-a)(s-b)(s-c)} = \sqrt{(3/2)a \times (1/2)a\times (1/2)a\times (1/2)a} = \sqrt{(3/16) a^4} = (\sqrt{3}/4) a^2.$$
+
+
+
+\section*{Beberapa Teorema Terkait}
+
+Ada beberapa teorema menarik mengenai segitiga sama sisi diantara teorema Viviani, teorema Pompeiu, teorema Van Schooten, teorema dan segitiga Napoleon. Beberapa dari teorema tersebut akan dibuktikan, sedangkan lainnya akan digunakan sebagai latihan. 
+
+\noindent \textbf{Teorema. } (Viviani) Diberikan segitiga sama sisi $ABC$ dan titik $P$ titik dalamnya. Jumlah jarak dari titik tersebut ke ketiga sisi, sama besar 
+
+
+Perhatikan ilustrasi berikut. 
+
+$$ GAMBAR $$
+
+Dengan menggunakan fakta bahwa ketiga garis tinggi dari suatu segitiga sama sisi sama panjang, bukti bisa disusun dengan mudah. 
+
+\subsection*{Teorema Pompeiu}
+
+Teorema ini masih sekitar titik interior segitiga sama sisi. Teorema ini cukup menarik, meskipun disini tidak akan diberikan konstruksi segitiga yang dimaksud kemudian. 
+
+\noindent \textbf{Teorema.} Pada bidang, diberikan segitiga $ABC$ dan titik $P$. Terdapat suatu segitiga dengan panjang sisi $PA,PB,$ dan $PC$ (mungkin degenerate). \\
+
+\noindent \textbf{Bukti. } Tinjau rotasi di $C$ sebesar $-60^\circ$. Misalkan $P'$ adalah hasil rotasi dari $P$. Pada rotasi ini, $B$ dibawa ke $A$, sehingga segmen $PB$ dibawa ke $P'A$. Salah satu akibatnya, $P'A = PB$. Perhatikan pula bahwa segitiga $PP'C$ adalah segitiga sama sisi, artinya $$
+
+$$ GAMBAR $$
+
+
+
+\subsection*{Teorema Van Schooten}
+
+Teorema ini membahas satu kasus khusus segitiga sama sisi dengan satu titik yang terletak pada lingkaran luarnya. \\
+
+
+\noindent \textbf{Teorema.} Diberikan segitiga $ABC$. Titik $P$ pada lingkaran luar $ABC$, pada busur $BC$ yang tidak memuat $A$. Maka berlaku $PA = PB + PC$. \\
+
+\noindent \textbf{Bukti.} Apabila $P$ berada pada lingkaran luar $ABC$, kita bisa mengaplikasikan teorema Ptolomeus pada segiempat talibusur $ABPC$. Diperoleh 
+$$ AB \times PC + AC \times PB = AP \times BC.$$
+Namun karena $AB = AC = BC$, maka persamaan tersebut bila dibagi dengan $AB$ menjadi $PC+PB = PA$. \\
+
+Teorema ini bisa diperluas dengan cukup cantik mengingat buktinya menggunakan teorema Ptolomeus, yang juga bisa diperluas. \\
+
+
+\noindent \textbf{Akibat 1.} Diberikan segitiga $ABC$ dan titik $P$ pada bidang. Berlaku ketaksamaan $PB + PC \geq PA$. \\
+
+
+\noindent \textbf{Akibat 2.} Diberikan segitiga $ABC$ dan titik $P$ tidak terletak pada lingkaran luar $ABC$. Terdapat segitiga dengan panjang sisi $PA,PB$, dan $PC$. \\
+
+
+
+
+\section*{Segitiga sama sisi dan segitiga lainnya}
+
+Segitiga sama-sisi juga sering menjadi objek yang menarik karena panjang sisi dan sudutnya. Misalnya Segitiga Napoleon yang menyebutkan konstruksi segitiga sama sisi pada segitiga sembarang, atau digunakan sebagai alat untuk membuktikan suatu permasalahan, bahkan teorema. Beberapa di antaranya adalah sebagai berikut.\\
+
+	
+\subsection*{Segitiga Napoleon}
+
+Diberikan segitiga $ABC$. Segitiga-segitiga 
+
+
+
+
+
+\section*{Problem}
+	\begin{enumerate}
+		\item Titik $P$ berada di dalam segitiga sama sisi $ABC$. Misalkan $h_a,h_b,$ dan $h_c$ berturut-turut adalah jarak $P$ ke sisi $BC,CA$, dan $AB$; misalkan $h$ adalah tinggi segitiga. Buktikan bahwa $h=h_a+h_b+h_c$. \\
+		\hfill (Teorema Viviani)
+
+		\item Titik $P$ berada di dalam segitiga $ABC$ yang mempunyai pusat lingkaran luar $O$. Buktikan bahwa 
+		$$ PA^2 + PB^2 + PC^2 = 3PO^2 + OA^2 + OB^2 + OC^2. $$
+		\item Diberikan persegi panjang $ABCD$ dan titik $P$ pada segmen $BC$ dan $Q$ pada segmen $CD$ sedemikian sehingga segitiga $APQ$ sama sisi. Misalkan panjang $AB=a$ dan $AD=b$. 
+		\begin{enumerate}
+			\item Tentukan masing-masing panjang $BP$ dan $DQ$ dalam $a$ dan $b$. 
+			\item Buktikan bahwa jumlah luas segitiga $ABP$ dan $ADQ$ sama dengan luas segitiga $PQC$. 
+		\end{enumerate}
+		\item Suatu garis membagi segitiga sama sisi menjadi dua bagian yang memiliki keliling yang sama dengan luas masing-masing $S_1$ dan $\S_2$. Buktikan bahwa 
+			$$ \frac{7}{9} \leq \frac{S_1}{S_2} \leq \frac{9}{7}. $$
+
+	\end{enumerate}
+
+\bibliography{geometri.bib}
+\end{document}
